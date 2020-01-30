@@ -29,26 +29,30 @@ void multibaseOutput(int decimal_num, int base_num, stack<int> _remainders) {
 }
 
 int main() {
+  bool run_the_program = true;
   cout << "\n-----\nBegin base calculator machine problem\n\n";
-  stack<int> remainders;
 
-  int decimal = -1;
-  while (decimal < 0) {
-    cout << "\nInput a non-negative number: ";
-    cin >> decimal;
-  }
+  while (run_the_program) {
+    stack<int> remainders;
 
-  int base = 1;
-  while ((base < 2 || base > 16) && base != 0) {
-    cout << "\nInput a base between 2 and 16: ";
-    cin >> base;
-  }
+    int decimal = -1;
+    while (decimal < 0) {
+      cout << "\nInput a non-negative number: ";
+      cin >> decimal;
+    }
 
-  if (decimal == 0 && base == 0) {
-    return 0;
-  } else {
-    cout << endl << decimal << " base " << base << " is ";
-    multibaseOutput(decimal, base, remainders);
+    int base = 1;
+    while ((base < 2 || base > 16) && base != 0) {
+      cout << "\nInput a base between 2 and 16: ";
+      cin >> base;
+    }
+
+    if (decimal == 0 && base == 0) {
+      run_the_program = false;
+    } else {
+      cout << endl << decimal << " base " << base << " is ";
+      multibaseOutput(decimal, base, remainders);
+    }
   }
 
   return 0;
