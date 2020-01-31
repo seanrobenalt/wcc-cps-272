@@ -37,11 +37,6 @@ bool balanced(string str) {
           } else
             break;
       }
-      if (str[i] == '}') {
-        if (opening_brackets.top() == '{') {
-
-        }
-      }
     } else
       break;
   }
