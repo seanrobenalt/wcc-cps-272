@@ -1,0 +1,6 @@
+((a+b))[{{c}}](){([])} * c[i]
+(welcome to C++)
+{while (i = 5) ;}
+[z]
+{an}[extra][line](here)
+[({[([{}])]})]

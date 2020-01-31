@@ -30,7 +30,7 @@ void multibaseOutput(int decimal_num, int base_num, stack<int> _remainders) {
 
 int main() {
   bool run_the_program = true;
-  cout << "\n-----\nBegin base calculator machine problem\n\n";
+  cout << "\n-----\nBegin base calculator machine problem by Sean Robenalt - CPS 272 Online\n\n";
 
   while (run_the_program) {
     stack<int> remainders;

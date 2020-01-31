@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  cout << "\n-----\nBegin string comparison machine problem\n\n";
+  cout << "\n-----\nBegin string comparison machine problem by Sean Robenalt - CPS 272 Online\n\n";
   bool matches_pattern = true;
 
   stack<char> reverse_string;
