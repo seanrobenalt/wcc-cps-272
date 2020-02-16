@@ -1,0 +1,736 @@
+
+Checkout line simulation machine problem by Sean Robenalt.
+This program simulates 120 minutes or 2 hours at a checkout line.
+
+
+Begin..
+
+First customer enters line w/ a wait time of 4
+
+
+
+0 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+There are now 2 customers in line.
+
+1 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 2 customers in line.
+
+2 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 2 customers in line.
+
+3 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 2 customers in line.
+
+4 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+First customer arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+5 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+6 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+7 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+8 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+9 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+10 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+11 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+12 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+13 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+14 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+15 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+16 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+17 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+18 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+19 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+20 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+21 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+22 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+23 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+24 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+25 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+26 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+27 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+28 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+29 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+30 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+31 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+32 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+33 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+34 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+35 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+36 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+37 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+38 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+39 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+40 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+41 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+42 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+43 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+44 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+45 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+46 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+47 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+48 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+49 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+50 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+51 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+52 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+53 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+54 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+55 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+56 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+57 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+58 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+59 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+60 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+61 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+62 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+63 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+64 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+65 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+66 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+67 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+68 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+69 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+70 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+71 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+72 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+73 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+74 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+75 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+76 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+77 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+78 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+79 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+80 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+81 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+82 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+83 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+84 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+85 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+86 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+87 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+88 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+89 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+90 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+91 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+92 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+93 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+94 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+95 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+96 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+97 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+98 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+99 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+100 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+101 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+102 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+103 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+104 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+105 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+106 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+107 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+108 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+109 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+110 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+111 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+112 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+113 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+114 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+115 minutes passed in the line.
+Next customer enters line and is waiting 3 minutes.
+
+Next customer has arrived and waited 3 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+116 minutes passed in the line.
+Next customer enters line and is waiting 4 minutes.
+
+Next customer has arrived and waited 4 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+117 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+118 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+119 minutes passed in the line.
+Next customer enters line and is waiting 1 minutes.
+
+Next customer has arrived and waited 1 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+120 minutes passed in the line.
+Next customer enters line and is waiting 2 minutes.
+
+Next customer has arrived and waited 2 minutes. Customer is removed from the queue.
+There are now 3 customers in line.
+
+120 minutes have passed, simulation has ended.
