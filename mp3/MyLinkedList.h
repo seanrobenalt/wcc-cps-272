@@ -27,10 +27,12 @@ public:
   void insertAtFront(const T& value);
   void insertAtBack(const T& value);
   void insertInOrder(const T& value);
+  void mergeTwoSortedListsToAnother(miniList<T> &listOne, miniList<T> &listTwo) ;
   void removeFromFront();
   void removeFromBack();
   bool isEmpty() const;
   void print() const;
+  void printCalculations() const;
   T front();
   T back();
   int size();
@@ -78,12 +80,16 @@ void miniList<T>::insertInOrder(const T& value) {
 		firstPointer = lastPointer = newPointer;
 	else {
 
-		if (value < temp->data)
+    if (value == temp->data) {
+      // do nothing
+    }
+
+		else if (value < temp->data)
 			insertAtFront(value);
 
     else {
 
-      while (temp->nextPointer != nullptr && !(value < temp->nextPointer->data && value >= temp->data)) //as it is sorted so X must lie between the consecutive values or else at end
+      while (temp->nextPointer != nullptr && !(value < temp->nextPointer->data && value > temp->data))
 				temp = temp->nextPointer;
 
 			if (temp->nextPointer == nullptr)
@@ -95,6 +101,22 @@ void miniList<T>::insertInOrder(const T& value) {
 			}
 		}
 	}
+}
+
+template <typename T>
+void miniList<T>::mergeTwoSortedListsToAnother(miniList<T> &listOne, miniList<T> &listTwo) {
+  ListNode<T> *currentPointer = listOne.firstPointer;
+
+  while (currentPointer != nullptr) {
+    insertInOrder(currentPointer->data);
+    currentPointer = currentPointer->nextPointer;
+  }
+
+  currentPointer = listTwo.firstPointer;
+  while (currentPointer != nullptr) {
+    insertInOrder(currentPointer->data);
+    currentPointer = currentPointer->nextPointer;
+  }
 }
 
 template <typename T>
@@ -150,6 +172,29 @@ void miniList<T>::print() const {
   }
 
   cout << "\n";
+}
+
+template <typename T>
+void miniList<T>::printCalculations() const {
+  if (isEmpty()) {
+    cout << "List is empty\n";
+    return;
+  }
+
+  int sum = 0;
+  int total = 0;
+
+  ListNode<T> *currentPointer = firstPointer;
+  while (currentPointer != nullptr) {
+    sum += currentPointer->data;
+    currentPointer = currentPointer->nextPointer;
+    total++;
+  }
+
+  cout << "The sum of the final list’s elements is : " << sum << "\n";
+
+  float avg = sum/total;
+  cout << "The average of the final list is : " << avg << "\n";
 }
 
 template <typename T>

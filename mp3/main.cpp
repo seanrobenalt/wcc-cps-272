@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
+  cout << "Starting the linked list machine problem for CPS 272 by Sean Robenalt\n\n";
+
   miniList<int> myListOf20;
   miniList<int> myListOf15;
 
@@ -25,8 +27,20 @@ int main() {
     counter++;
   }
 
+  cout << "If the first list has\n";
   myListOf20.print();
+
+  cout << "\nAnd the second list has\n";
   myListOf15.print();
+
+  miniList<int> myMergedList;
+  myMergedList.mergeTwoSortedListsToAnother(myListOf20, myListOf15);
+
+  cout << "\nThe result will be\n";
+  myMergedList.print();
+
+  cout << "\n";
+  myMergedList.printCalculations();
 
   return 0;
 }
