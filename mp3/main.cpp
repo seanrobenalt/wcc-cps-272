@@ -4,17 +4,29 @@
 using namespace std;
 
 int main() {
-  miniList<char> myList;
+  miniList<int> myListOf20;
+  miniList<int> myListOf15;
 
-  myList.insertAtFront('c');
-  myList.insertAtFront('a');
-  myList.insertAtFront('r');
-  myList.insertAtBack('e');
-  myList.insertAtBack('c');
-  myList.insertAtBack('a');
-  myList.insertAtBack('r');
+  int counter = 1;
 
-  myList.print();
+  int MAX_ENTER_20 = 20;
+  int MAX_ENTER_15 = 15;
+
+  while (counter <= MAX_ENTER_20) {
+    int randomNum1 = rand() % 100 + 0;
+
+    myListOf20.insertInOrder(randomNum1);
+
+    if (counter <= MAX_ENTER_15) {
+      int randomNum2 = rand() % 100 + 0;
+
+      myListOf15.insertInOrder(randomNum2);
+    }
+    counter++;
+  }
+
+  myListOf20.print();
+  myListOf15.print();
 
   return 0;
 }

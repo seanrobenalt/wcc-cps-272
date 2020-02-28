@@ -26,6 +26,7 @@ public:
 
   void insertAtFront(const T& value);
   void insertAtBack(const T& value);
+  void insertInOrder(const T& value);
   void removeFromFront();
   void removeFromBack();
   bool isEmpty() const;
@@ -66,6 +67,34 @@ void miniList<T>::insertAtBack(const T& value) {
     lastPointer->nextPointer = newPointer;
     lastPointer = newPointer;
   }
+}
+
+template <typename T>
+void miniList<T>::insertInOrder(const T& value) {
+	ListNode<T> *temp = firstPointer;
+  ListNode<T> *newPointer = getNewNode(value);
+
+	if (isEmpty())
+		firstPointer = lastPointer = newPointer;
+	else {
+
+		if (value < temp->data)
+			insertAtFront(value);
+
+    else {
+
+      while (temp->nextPointer != nullptr && !(value < temp->nextPointer->data && value >= temp->data)) //as it is sorted so X must lie between the consecutive values or else at end
+				temp = temp->nextPointer;
+
+			if (temp->nextPointer == nullptr)
+				insertAtBack(value);
+
+      else {
+				newPointer->nextPointer = temp->nextPointer;
+				temp->nextPointer = newPointer;
+			}
+		}
+	}
 }
 
 template <typename T>
