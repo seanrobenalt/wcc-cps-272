@@ -1,25 +1,35 @@
 #include "BinaryTreeType.h"
+#include <string>
+#include <sstream>
 
 int main()
 {
-  BST<int> gradesTree;
+  BST<string> stringTree;
 
-  gradesTree.insert(20);
-  gradesTree.insert(10);
-  gradesTree.insert(5);
-  gradesTree.insert(7);
-  gradesTree.insert(30);
-  gradesTree.insert(40);
-  gradesTree.insert(35);
+  string entry;
+  cout << "Enter a sentence: ";
+  getline(cin, entry);
 
-  cout << " -- inOrderTraversal -- \n";
-  gradesTree.inOrderTraversal();
-  cout << "\n -- preOrderTraversal -- \n";
-  gradesTree.preOrderTraversal();
-  cout << "\n -- postOrderTraversal -- \n";
-  gradesTree.postOrderTraversal();
-  cout << "\n -- inOrderTraversal after deleting 40 -- \n";
-  gradesTree.deleteNode(40);
-  gradesTree.inOrderTraversal();
+  istringstream iss(entry);
+
+  do {
+    string temp;
+
+    iss >> temp;
+
+    stringTree.insert(temp);
+
+  } while (iss);
+
+  cout << "\n -- postOrderTraversal -- \n\n";
+  stringTree.postOrderTraversal();
+  cout << "\n -- preOrderTraversal -- \n\n";
+  stringTree.preOrderTraversal();
+  cout << "\n -- inOrderTraversal -- \n\n";
+  stringTree.inOrderTraversal();
+
+  int size = stringTree.sizeOf();
+  cout << "\n -- Size of tree is: " << size << "\n";
+
   cout << "\n -- destructor destroys the tree -- \n";
 }

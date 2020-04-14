@@ -25,11 +25,13 @@ public:
   void inOrderTraversal() const;
   void preOrderTraversal() const;
   void postOrderTraversal() const;
+  int sizeOf() const;
 private:
   void inOrder(nodeType<T> *p) const;
   void preOrder(nodeType<T> *p) const;
   void postOrder(nodeType<T> *p) const;
   void destroy(nodeType<T> * &p);
+  int size(nodeType<T> *p) const;
 };
 
 template <typename T>
@@ -89,6 +91,21 @@ void BinaryTreeType<T>::postOrder(nodeType<T> *p) const
     postOrder(p->rLink);
     cout << p->info << " ";
   }
+}
+
+template <typename T>
+int BinaryTreeType<T>::sizeOf() const
+{
+  return size(root);
+}
+
+template <typename T>
+int BinaryTreeType<T>::size(nodeType<T> *p) const
+{
+  if (p == nullptr)
+    return 0;
+  else
+    return(size(p->lLink) + 1 + size(p->rLink));
 }
 
 template <typename T>
@@ -203,7 +220,7 @@ void BST<T>::deleteFromTree(nodeType<T> * &p)
       curr = curr->rLink;
     }
     p->info = curr->info;
-    if (trail == nullptr) // curr did not move
+    if (trail == nullptr)
       p->lLink = curr->lLink;
     else
       trail->rLink = curr->lLink;
